@@ -30,6 +30,7 @@ Roadmap:
     - changed correct hostnames with hostnamectl
 - run k3s cluster
     - cluster running with 1 control node and 2 worker nodes.
+    - give the worker nodes new labels
 - configure ingress
 - configure persistent storage with Longhorn
 - Monitor the stack
