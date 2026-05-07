@@ -10,12 +10,14 @@ k3s control - control plane - 2 cores - 4GB
 k3s worker1  - worker - 2 cores - 8GB
 k3s worker2 - worker - 2 cores - 8GB
 
-Stack:
+Goal stack (working through this):
 Kubernetes - k3s
 Ingress - Traefik
 Storage - Longhorn
 Monitoring - Prometheus and Grafana
 GitOps - ArgoCD
+
+Also using: tmux and vim
 
 Roadmap:
 - install proxmox
