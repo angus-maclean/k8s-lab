@@ -1,3 +1,13 @@
+
+# What is a Service in Kubernetes?
+
+- When pods die and are replaced, they get a new IP address
+- If users or other pods were connected to the pod then communication is lost
+
+- When you make a service you give pods a stable IP address that stays
+- We just made a NodePort service type. There are ClusterIP and LoadBalancer service types too
+
+
 # Basic networking with a service
 
 Pod
