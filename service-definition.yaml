@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp-service
+
+spec: 
+  type: NodePort
+  ports: 
+    - targetPort: 80
+      port: 80
+      nodePort: 30008
+# If we want to connect a service to a specific pod we need to state which pod using labels and selectors. We can use the label from the pod yaml.
+  selector: 
+    name: myapp
+    type: front-end
+
+
