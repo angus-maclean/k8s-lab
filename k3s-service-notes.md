@@ -8,6 +8,28 @@
 - We just made a NodePort service type. There are ClusterIP and LoadBalancer service types too
 
 
+
+# THREE SERVICE TYPES
+
+## NodePort
+
+Allows pods to talk to each other WITHIN a cluster.
+
+
+## ClusterIP
+
+Allows external users to access pods inside the cluster.
+
+## Load Balancer
+
+A production level ClusterIP. 
+
+
+
+
+
+
+
 # Basic networking with a service
 
 Pod
@@ -27,3 +49,7 @@ The NODE PORT is connected to the Service.
 ## Flow of traffic
 
 External traffic -> node: NODE PORT -> service: PORT -> pod:TARGET PORT
+
+
+#Load Balancer - Service Type
+
