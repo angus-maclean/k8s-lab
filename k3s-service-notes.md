@@ -11,24 +11,17 @@
 
 # THREE SERVICE TYPES
 
-## NodePort
+## ClusterIP
 
 Allows pods to talk to each other WITHIN a cluster.
 
-
-## ClusterIP
+## NodePort
 
 Allows external users to access pods inside the cluster.
 
 ## Load Balancer
 
 A production level ClusterIP. 
-
-
-
-
-
-
 
 # Basic networking with a service
 
